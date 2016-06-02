@@ -15,6 +15,17 @@
 		4C7BC6B51D005D5C00E45E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7BC6B31D005D5C00E45E02 /* LaunchScreen.storyboard */; };
 		4C7BC6C01D005D5C00E45E02 /* H5ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BC6BF1D005D5C00E45E02 /* H5ProjectTests.m */; };
 		4C7BC6CB1D005D5C00E45E02 /* H5ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BC6CA1D005D5C00E45E02 /* H5ProjectUITests.m */; };
+		4C7BC6F21D005DE600E45E02 /* APICloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6DA1D005DE600E45E02 /* APICloud.a */; };
+		4C7BC6F31D005DE600E45E02 /* libminizip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6EB1D005DE600E45E02 /* libminizip.a */; };
+		4C7BC6F41D005DE600E45E02 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6EC1D005DE600E45E02 /* libopencore-amrnb.a */; };
+		4C7BC6F51D005DE600E45E02 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6ED1D005DE600E45E02 /* libopencore-amrwb.a */; };
+		4C7BC6F61D005DE600E45E02 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7BC6EF1D005DE600E45E02 /* blueArrow.png */; };
+		4C7BC6F71D005DE600E45E02 /* module.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C7BC6F01D005DE600E45E02 /* module.json */; };
+		4C7BC6F81D005DE600E45E02 /* notification.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7BC6F11D005DE600E45E02 /* notification.caf */; };
+		4C7BC6FA1D005EB800E45E02 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6F91D005EB800E45E02 /* libz.tbd */; };
+		4C7BC6FC1D005EC300E45E02 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6FB1D005EC300E45E02 /* libicucore.tbd */; };
+		4C7BC6FE1D005ECB00E45E02 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7BC6FD1D005ECB00E45E02 /* libstdc++.tbd */; };
+		4C7BC7001D005F1900E45E02 /* widget in Resources */ = {isa = PBXBuildFile; fileRef = 4C7BC6FF1D005F1900E45E02 /* widget */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,31 @@
 		4C7BC6C61D005D5C00E45E02 /* H5ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H5ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7BC6CA1D005D5C00E45E02 /* H5ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5ProjectUITests.m; sourceTree = "<group>"; };
 		4C7BC6CC1D005D5C00E45E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7BC6DA1D005DE600E45E02 /* APICloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = APICloud.a; sourceTree = "<group>"; };
+		4C7BC6DB1D005DE600E45E02 /* APIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIEvent.h; sourceTree = "<group>"; };
+		4C7BC6DC1D005DE600E45E02 /* APIExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIExport.h; sourceTree = "<group>"; };
+		4C7BC6DE1D005DE600E45E02 /* NSDictionaryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryUtils.h; sourceTree = "<group>"; };
+		4C7BC6DF1D005DE600E45E02 /* UZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppDelegate.h; sourceTree = "<group>"; };
+		4C7BC6E01D005DE600E45E02 /* UZAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZAppUtils.h; sourceTree = "<group>"; };
+		4C7BC6E11D005DE600E45E02 /* UZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZModule.h; sourceTree = "<group>"; };
+		4C7BC6E21D005DE600E45E02 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		4C7BC6E31D005DE600E45E02 /* APIModuleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIModuleMethod.h; sourceTree = "<group>"; };
+		4C7BC6E41D005DE600E45E02 /* APIScriptMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIScriptMessage.h; sourceTree = "<group>"; };
+		4C7BC6E51D005DE600E45E02 /* APIUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUpdateManager.h; sourceTree = "<group>"; };
+		4C7BC6E61D005DE600E45E02 /* APIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWebView.h; sourceTree = "<group>"; };
+		4C7BC6E71D005DE600E45E02 /* APIWidgetContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWidgetContainer.h; sourceTree = "<group>"; };
+		4C7BC6E81D005DE600E45E02 /* APIWindowContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIWindowContainer.h; sourceTree = "<group>"; };
+		4C7BC6E91D005DE600E45E02 /* UZWebViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZWebViewProtocol.h; sourceTree = "<group>"; };
+		4C7BC6EB1D005DE600E45E02 /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminizip.a; sourceTree = "<group>"; };
+		4C7BC6EC1D005DE600E45E02 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		4C7BC6ED1D005DE600E45E02 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		4C7BC6EF1D005DE600E45E02 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		4C7BC6F01D005DE600E45E02 /* module.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = module.json; sourceTree = "<group>"; };
+		4C7BC6F11D005DE600E45E02 /* notification.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notification.caf; sourceTree = "<group>"; };
+		4C7BC6F91D005EB800E45E02 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4C7BC6FB1D005EC300E45E02 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4C7BC6FD1D005ECB00E45E02 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4C7BC6FF1D005F1900E45E02 /* widget */ = {isa = PBXFileReference; lastKnownFileType = folder; path = widget; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7BC6FE1D005ECB00E45E02 /* libstdc++.tbd in Frameworks */,
+				4C7BC6FC1D005EC300E45E02 /* libicucore.tbd in Frameworks */,
+				4C7BC6FA1D005EB800E45E02 /* libz.tbd in Frameworks */,
+				4C7BC6F31D005DE600E45E02 /* libminizip.a in Frameworks */,
+				4C7BC6F41D005DE600E45E02 /* libopencore-amrnb.a in Frameworks */,
+				4C7BC6F51D005DE600E45E02 /* libopencore-amrwb.a in Frameworks */,
+				4C7BC6F21D005DE600E45E02 /* APICloud.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +124,9 @@
 		4C7BC6991D005D5B00E45E02 = {
 			isa = PBXGroup;
 			children = (
+				4C7BC6FD1D005ECB00E45E02 /* libstdc++.tbd */,
+				4C7BC6FB1D005EC300E45E02 /* libicucore.tbd */,
+				4C7BC6F91D005EB800E45E02 /* libz.tbd */,
 				4C7BC6A41D005D5B00E45E02 /* H5Project */,
 				4C7BC6BE1D005D5C00E45E02 /* H5ProjectTests */,
 				4C7BC6C91D005D5C00E45E02 /* H5ProjectUITests */,
@@ -101,6 +147,8 @@
 		4C7BC6A41D005D5B00E45E02 /* H5Project */ = {
 			isa = PBXGroup;
 			children = (
+				4C7BC6FF1D005F1900E45E02 /* widget */,
+				4C7BC6D81D005DE600E45E02 /* lib */,
 				4C7BC6A81D005D5B00E45E02 /* AppDelegate.h */,
 				4C7BC6A91D005D5B00E45E02 /* AppDelegate.m */,
 				4C7BC6AB1D005D5B00E45E02 /* ViewController.h */,
@@ -138,6 +186,66 @@
 				4C7BC6CC1D005D5C00E45E02 /* Info.plist */,
 			);
 			path = H5ProjectUITests;
+			sourceTree = "<group>";
+		};
+		4C7BC6D81D005DE600E45E02 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BC6D91D005DE600E45E02 /* Engine */,
+				4C7BC6EA1D005DE600E45E02 /* Modules */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4C7BC6D91D005DE600E45E02 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BC6DA1D005DE600E45E02 /* APICloud.a */,
+				4C7BC6DB1D005DE600E45E02 /* APIEvent.h */,
+				4C7BC6DC1D005DE600E45E02 /* APIExport.h */,
+				4C7BC6DD1D005DE600E45E02 /* APIKit */,
+				4C7BC6E21D005DE600E45E02 /* APIManager.h */,
+				4C7BC6E31D005DE600E45E02 /* APIModuleMethod.h */,
+				4C7BC6E41D005DE600E45E02 /* APIScriptMessage.h */,
+				4C7BC6E51D005DE600E45E02 /* APIUpdateManager.h */,
+				4C7BC6E61D005DE600E45E02 /* APIWebView.h */,
+				4C7BC6E71D005DE600E45E02 /* APIWidgetContainer.h */,
+				4C7BC6E81D005DE600E45E02 /* APIWindowContainer.h */,
+				4C7BC6E91D005DE600E45E02 /* UZWebViewProtocol.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		4C7BC6DD1D005DE600E45E02 /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BC6DE1D005DE600E45E02 /* NSDictionaryUtils.h */,
+				4C7BC6DF1D005DE600E45E02 /* UZAppDelegate.h */,
+				4C7BC6E01D005DE600E45E02 /* UZAppUtils.h */,
+				4C7BC6E11D005DE600E45E02 /* UZModule.h */,
+			);
+			path = APIKit;
+			sourceTree = "<group>";
+		};
+		4C7BC6EA1D005DE600E45E02 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BC6EB1D005DE600E45E02 /* libminizip.a */,
+				4C7BC6EC1D005DE600E45E02 /* libopencore-amrnb.a */,
+				4C7BC6ED1D005DE600E45E02 /* libopencore-amrwb.a */,
+				4C7BC6EE1D005DE600E45E02 /* uz */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4C7BC6EE1D005DE600E45E02 /* uz */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BC6EF1D005DE600E45E02 /* blueArrow.png */,
+				4C7BC6F01D005DE600E45E02 /* module.json */,
+				4C7BC6F11D005DE600E45E02 /* notification.caf */,
+			);
+			path = uz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +357,10 @@
 				4C7BC6B51D005D5C00E45E02 /* LaunchScreen.storyboard in Resources */,
 				4C7BC6B21D005D5C00E45E02 /* Assets.xcassets in Resources */,
 				4C7BC6B01D005D5C00E45E02 /* Main.storyboard in Resources */,
+				4C7BC6F81D005DE600E45E02 /* notification.caf in Resources */,
+				4C7BC6F61D005DE600E45E02 /* blueArrow.png in Resources */,
+				4C7BC6F71D005DE600E45E02 /* module.json in Resources */,
+				4C7BC7001D005F1900E45E02 /* widget in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +530,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = H5Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/H5Project/lib/Engine",
+					"$(PROJECT_DIR)/H5Project/lib/Modules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.echo.H5Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -429,6 +547,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = H5Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/H5Project/lib/Engine",
+					"$(PROJECT_DIR)/H5Project/lib/Modules",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.echo.H5Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

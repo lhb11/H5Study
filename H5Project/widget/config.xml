@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="A6918019624149" version="0.0.11">
+    <name>AUI 例子</name>
+    <description>api demo for api.</description>
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">APICloud</author>
+    <content src="index.html"/>
+    <preference name="windowBackground" value="image/common/bg.png"/>
+    <preference name="autoLaunch" value="true"/>
+    <preference name="autoUpdate" value="true"/>
+    <preference name="smartUpdate" value="true"/>
+    <access origin="*"/>
+    <feature name="weiXin">
+        <param name="urlScheme" value="wx8a979365721f511f"/>
+        <param name="apiKey" value="wx8a979365721f511f"/>
+        <param name="apiSecret" value="5a71ccdd43f8b0f9f424240fd87d9f92"/>
+    </feature>
+    <feature name="sinaWeiBo">
+        <param name="urlScheme" value="wb2691317466"/>
+        <param name="apiKey" value="2691317466"/>
+        <param name="rgistUrl" value="http://www.apicloud.com"/>
+        <param name="registUrl" value="http://www.apicloud.com" />
+    </feature>
+    <feature name="qq">
+        <param name="urlScheme" value="tencent1104208666"/>
+        <param name="apiKey" value="1104208666"/>
+    </feature>
+    <feature name="baiduMap">
+        <param name="android_api_key" value="f7Is0dWLom2q6rV3ZfFPZ1aa" />
+        <param name="ios_api_key" value="81qz3dBYB5q2nGji4IYrawr1" />
+    </feature>
+    <feature name="aliPay">
+        <param name="urlScheme" value="AliPayA6965066817858" />
+        <param name="apiSecret" value="a354f72aa1b4c2b8eaad137ac81434cd" />
+    </feature>
+</widget>
