@@ -27,7 +27,7 @@
     [[APIManager manager] setWebViewDelegate:self];
     [[APIManager manager] setModuleMethodDelegate:self];
     [[APIManager manager] setScriptMessageDelegate:self];
-    
+    NSLog(@"sss");
     [[APIEventCenter defaultCenter] addEventListener:self selector:@selector(handleEvent:) name:@"abc"];
 }
 
